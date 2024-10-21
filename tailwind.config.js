@@ -11,6 +11,9 @@ export default {
           extraLight: "#CBE3EF",
         },
       },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"]
+      },
     },
   },
   plugins: [],
