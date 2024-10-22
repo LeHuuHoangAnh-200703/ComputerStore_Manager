@@ -22,7 +22,7 @@ const products = ref([
                                 <div class="bg-white rounded-lg shadow-lg p-4 px-4 md:p-8 mb-6">
                                     <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
                                         <div class="text-[#333f48] font-semibold">
-                                            <p class="text-lg">Chi tiết phiếu nhập</p>
+                                            <p class="text-lg">Chi tiết hóa đơn</p>
                                             <p>Vui lòng điền thông tin đầy đủ.</p>
                                         </div>
                                         <div class="lg:col-span-2">
@@ -37,11 +37,10 @@ const products = ref([
                                                 </div>
 
                                                 <div class="md:col-span-5">
-                                                    <label for="idEntry" class="font-semibold text-[16px]">Mã phiếu
-                                                        nhập</label>
-                                                    <input type="text" name="idEntry" id="idEntry"
+                                                    <label for="idBill" class="font-semibold text-[16px]">Mã hóa đơn</label>
+                                                    <input type="text" name="idBill" id="idBill"
                                                         class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                                                        placeholder="Nhập mã phiếu ..." />
+                                                        placeholder="Nhập mã hóa đơn ..." />
                                                 </div>
 
                                                 <div class="md:col-span-5">
@@ -62,7 +61,7 @@ const products = ref([
                                                     <div class="inline-flex items-end">
                                                         <button type="submit"
                                                             class="bg-[#333f48] hover:bg-blue-primary text-white font-bold py-2 px-4 rounded">Thêm
-                                                            phiếu nhập</button>
+                                                            hóa đơn</button>
                                                     </div>
                                                 </div>
 
@@ -76,7 +75,7 @@ const products = ref([
                     <div class="flex justify-center flex-1 gap-4 max-w-xl">
                         <input type="text"
                             class="items-center w-full p-3 bg-white border-2 border-gray-400 text-[14px] font-semibold tracking-wider text-black rounded-lg focus:outline-none"
-                            placeholder="Tìm kiếm phiếu nhập ..." />
+                            placeholder="Tìm kiếm hóa đơn ..." />
                         <button
                             class="font-bold text-[14px] bg-blue-primary text-white px-4 py-2 rounded-lg whitespace-nowrap">
                             Tìm kiếm
@@ -84,16 +83,17 @@ const products = ref([
                     </div>
                     <div class="h-full bg-white rounded-xl">
                         <div class="text-center py-4 block lg:hidden">
-                            <h2 class="font-bold text-blue-primary text-[18px]">CHI TIẾT PHIẾU NHẬP</h2>
+                            <h2 class="font-bold text-blue-primary text-[18px]">THÔNG TIN HÓA ĐƠN</h2>
                         </div>
                         <div id="all_products" class="overflow-auto">
                             <table class="w-full border-collapse whitespace-nowrap text-center text-sm text-gray-500">
                                 <thead class="">
                                     <tr>
                                         <th scope="col" class="px-6 py-4 font-semibold text-gray-900">Mã sản phẩm</th>
-                                        <th scope="col" class="px-6 py-4 font-semibold text-gray-900">Mã phiếu nhập</th>
+                                        <th scope="col" class="px-6 py-4 font-semibold text-gray-900">Mã hóa đơn
+                                        </th>
                                         <th scope="col" class="px-6 py-4 font-semibold text-gray-900">Số lượng</th>
-                                        <th scope="col" class="px-6 py-4 font-semibold text-gray-900">Giá nhập</th>
+                                        <th scope="col" class="px-6 py-4 font-semibold text-gray-900">Giá bán</th>
                                         <th scope="col" class="px-6 py-4 font-semibold text-gray-900">Điều chỉnh</th>
                                     </tr>
                                 </thead>

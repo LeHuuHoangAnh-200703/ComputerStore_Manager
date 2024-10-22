@@ -8,6 +8,8 @@ import EntryForm from '../views/admin/EntryForm.vue';
 import EditEntryForm from '../views/admin/editEntryForm.vue';
 import DetailsEntryForm from '../views/admin/detailsEntryForm.vue';
 import EditDetailsEntryForm from '../views/admin/editDetailsEntryForm.vue';
+import BillInfo from '../views/admin/billInfo.vue';
+import DetailsBillInfo from '../views/admin/detailsBillInfo.vue';
 
 const routes = [
     {
@@ -54,6 +56,16 @@ const routes = [
         path: '/editDetailsEntryForm',
         name: 'Edit Details Entry Form',
         component: EditDetailsEntryForm
+    },
+    {
+        path: '/billInfo',
+        name: 'Bill Info',
+        component: BillInfo
+    },
+    {
+        path: '/detailsBillInfo',
+        name: 'Details Bill Info',
+        component: DetailsBillInfo
     },
 ];
 

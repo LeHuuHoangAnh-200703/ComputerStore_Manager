@@ -6,25 +6,25 @@ const sidebarMobile = [
     {
         name: "Danh sách sản phẩm",
         icon: "fa-solid fa-igloo",
-        path: "adminDashboard",
+        path: "/",
     },
     {
         name: "Thêm sản phẩm",
         icon: "fa-solid fa-cart-plus",
-        path: "createProducts",
+        path: "addProduct",
     },
     { name: "Thêm admin", icon: "fa-solid fa-user-plus", path: "addAdmin" },
     {
-        name: "Phiếu nhập",
+        name: "Thông tin phiếu nhập",
         icon: "fa-solid fa-rectangle-list",
-        path: "ordersBook",
+        path: "entryForm",
     },
-    { name: "Chi tiết phiếu nhập", icon: "fa-solid fa-list", path: "ordersBook" },
-    { name: "Hóa đơn", icon: "fa-solid fa-scroll", path: "ordersBook" },
+    { name: "Chi tiết phiếu nhập", icon: "fa-solid fa-list", path: "detailsEntryForm" },
+    { name: "Thông tin hóa đơn", icon: "fa-solid fa-scroll", path: "billInfo" },
     {
         name: "Chi tiết hóa đơn",
         icon: "fa-solid fa-money-bills",
-        path: "ordersBook",
+        path: "detailsBillInfo",
     },
 ];
 

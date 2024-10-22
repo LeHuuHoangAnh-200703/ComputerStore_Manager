@@ -18,11 +18,11 @@ const sidebarMenu = [
         path: "entryForm",
     },
     { name: "Chi tiết phiếu nhập", icon: "fa-solid fa-list", path: "detailsEntryForm" },
-    { name: "Hóa đơn", icon: "fa-solid fa-scroll", path: "ordersBook" },
+    { name: "Thông tin hóa đơn", icon: "fa-solid fa-scroll", path: "billInfo" },
     {
         name: "Chi tiết hóa đơn",
         icon: "fa-solid fa-money-bills",
-        path: "ordersBook",
+        path: "detailsBillInfo",
     },
 ];
 </script>
