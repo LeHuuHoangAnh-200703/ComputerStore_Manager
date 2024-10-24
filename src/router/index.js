@@ -10,6 +10,11 @@ import DetailsEntryForm from '../views/admin/detailsEntryForm.vue';
 import EditDetailsEntryForm from '../views/admin/editDetailsEntryForm.vue';
 import BillInfo from '../views/admin/billInfo.vue';
 import DetailsBillInfo from '../views/admin/detailsBillInfo.vue';
+import Customers from '../views/admin/customers.vue';
+import Suppliers from '../views/admin/suppliers.vue';
+import EditSuppliers from '../views/admin/editSuppliers.vue';
+import Manufacturers from '../views/admin/manufacturers.vue';
+import EditManufacturers from '../views/admin/editManufacturers.vue';
 
 const routes = [
     {
@@ -66,6 +71,31 @@ const routes = [
         path: '/detailsBillInfo',
         name: 'Details Bill Info',
         component: DetailsBillInfo
+    },
+    {
+        path: '/customers',
+        name: 'Customers',
+        component: Customers
+    },
+    {
+        path: '/suppliers',
+        name: 'Suppliers',
+        component: Suppliers
+    },
+    {
+        path: '/editSuppliers',
+        name: 'Edit Suppliers',
+        component: EditSuppliers
+    },
+    {
+        path: '/manufacturers',
+        name: 'Manufacturers',
+        component: Manufacturers
+    },
+    {
+        path: '/editManufacturers',
+        name: 'Edit Manufacturers',
+        component: EditManufacturers
     },
 ];
 

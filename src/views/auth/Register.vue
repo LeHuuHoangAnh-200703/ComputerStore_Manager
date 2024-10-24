@@ -29,6 +29,18 @@
                                     placeholder="JeiKei@gmail.com" />
                             </div>
                             <div>
+                                <label for="phone" class="text-sm font-medium text-gray-700 block mb-2">Liên lạc</label>
+                                <input type="text" id="phone"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-blue-secondary focus:ring-blue-secondary transition duration-150 ease-in-out"
+                                    placeholder="079-xxx-xxxx" />
+                            </div>
+                            <div>
+                                <label for="date" class="text-sm font-medium text-gray-700 block mb-2">Ngày sinh</label>
+                                <input type="date" id="date"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-blue-secondary focus:ring-blue-secondary transition duration-150 ease-in-out"
+                                    placeholder="079-xxx-xxxx" />
+                            </div>
+                            <div>
                                 <label for="password" class="text-sm font-medium text-gray-700 block mb-2">Mật
                                     Khẩu</label>
                                 <input type="password" id="password"

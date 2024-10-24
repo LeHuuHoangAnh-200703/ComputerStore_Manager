@@ -118,11 +118,11 @@ const products = ref([
                                         <td class="flex justify-center items-center gap-2 px-7 py-7 flex-col">
                                             <a :href="`/edit/${product.id}`"
                                                 class="inline-block bg-blue-primary text-white font-medium py-2 px-4 rounded-md transition-all duration-300 hover:bg-blue-secondary whitespace-nowrap">Sửa
-                                                phiếu nhập</a>
+                                                hóa đơn</a>
                                             <form @submit.prevent="deleteProduct(product.id)">
                                                 <button type="submit"
                                                     class="inline-block text-white font-medium bg-[#DC143C] py-2 px-4 mb-4 rounded-md transition-all duration-300 hover:bg-[#B22222] whitespace-nowrap">Xóa
-                                                    phiếu nhập</button>
+                                                    hóa đơn</button>
                                             </form>
                                         </td>
                                     </tr>

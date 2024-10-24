@@ -2,16 +2,30 @@
 import { onMounted } from 'vue';
 
 const sidebarMobile = [
-    { name: "Thống kê", icon: "fa-solid fa-chart-simple", path: "ordersBook" },
     {
         name: "Danh sách sản phẩm",
         icon: "fa-solid fa-igloo",
         path: "/",
     },
     {
+        name: "Danh sách người dùng",
+        icon: "fa-solid fa-users",
+        path: "/customers",
+    },
+    {
         name: "Thêm sản phẩm",
         icon: "fa-solid fa-cart-plus",
         path: "addProduct",
+    },
+    {
+        name: "Thêm nhà cung cấp",
+        icon: "fa-solid fa-user-tie",
+        path: "suppliers",
+    },
+    {
+        name: "Thêm nhà sản xuất",
+        icon: "fa-solid fa-user-group",
+        path: "manufacturers",
     },
     { name: "Thêm admin", icon: "fa-solid fa-user-plus", path: "addAdmin" },
     {
