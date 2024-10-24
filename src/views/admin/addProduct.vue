@@ -30,6 +30,36 @@ import sidebar from '@/components/sidebar.vue';
                             </div>
                             <div class="">
                                 <div>
+                                    <label for="idNSX"
+                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Mã
+                                        nhà sản xuất</label>
+                                    <input name="idNSX" autofocus type="text" id="idNSX"
+                                        class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
+                                        placeholder="Nhập mã NSX ..." />
+                                </div>
+                            </div>
+                            <div class="">
+                                <div>
+                                    <label for="idSupplier"
+                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Mã
+                                        nhà cung cấp</label>
+                                    <input name="idSupplier" autofocus type="text" id="idSupplier"
+                                        class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
+                                        placeholder="Nhập mã nhà cung cấp ..." />
+                                </div>
+                            </div>
+                            <div class="">
+                                <div>
+                                    <label for="type"
+                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Mã
+                                        loại</label>
+                                    <input name="type" autofocus type="text" id="type"
+                                        class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
+                                        placeholder="Nhập mã loại ..." />
+                                </div>
+                            </div>
+                            <div class="">
+                                <div>
                                     <label for="name"
                                         class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Tên
                                         thiết bị</label>
@@ -40,18 +70,9 @@ import sidebar from '@/components/sidebar.vue';
                             </div>
                             <div class="">
                                 <div>
-                                    <label for="priceIn"
-                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Giá
-                                        nhập</label>
-                                    <input min="1" name="price" autofocus type="number" id="price"
-                                        class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
-                                        placeholder="10.000 VNĐ" />
-                                </div>
-                            </div>
-                            <div class="">
-                                <div>
                                     <label for="priceOut"
-                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Giá thành</label>
+                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Giá
+                                        thành</label>
                                     <input name="priceOut" autofocus type="text" id="priceOut"
                                         class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
                                         placeholder="10.000 VNĐ" />
@@ -59,35 +80,9 @@ import sidebar from '@/components/sidebar.vue';
                             </div>
                             <div class="">
                                 <div>
-                                    <label for="idNSX"
-                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Mã nhà sản xuất</label>
-                                    <input name="idNSX" autofocus type="text" id="idNSX"
-                                        class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
-                                        placeholder="Nhập mã NSX ..." />
-                                </div>
-                            </div>
-                            <div class="">
-                                <div>
-                                    <label for="type"
-                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Mã loại</label>
-                                    <input name="type" autofocus type="text" id="type"
-                                        class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
-                                        placeholder="Nhập mã loại ..." />
-                                </div>
-                            </div>
-                            <div class="">
-                                <div>
-                                    <label for="idSupplier"
-                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Mã nhà cung cấp</label>
-                                    <input name="idSupplier" autofocus type="text" id="idSupplier"
-                                        class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
-                                        placeholder="Nhập mã nhà cung cấp ..." />
-                                </div>
-                            </div>
-                            <div class="">
-                                <div>
                                     <label for="5"
-                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Thông số</label>
+                                        class="font-bold mb-1 block text-base text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*']">Thông
+                                        số</label>
                                     <textarea id="description" name="description"
                                         class="outline-0 p-3 block w-full rounded-md border shadow-md focus:border-blue-secondary focus:ring focus:ring-blue-secondary focus:ring-opacity-50 disabled:cursor-not-allowed"
                                         rows="3" placeholder="Hãy thêm mô tả ..."></textarea>
